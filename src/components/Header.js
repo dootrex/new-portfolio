@@ -79,6 +79,7 @@ export default function Header() {
             }}
           >
             <motion.button
+              onClick={openNav}
               whileHover={{
                 scale: 1.3,
                 textShadow: "0px 0px 8px rgb(255,255,255)",
@@ -89,6 +90,7 @@ export default function Header() {
               <Link to="projects">Projects</Link>
             </motion.button>
             <motion.button
+              onClick={openNav}
               whileHover={{
                 scale: 1.3,
                 textShadow: "0px 0px 8px rgb(255,255,255)",
@@ -99,6 +101,7 @@ export default function Header() {
               <Link to="about">About</Link>
             </motion.button>
             <motion.button
+              onClick={openNav}
               whileHover={{
                 scale: 1.3,
                 textShadow: "0px 0px 8px rgb(255,255,255)",

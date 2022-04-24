@@ -20,18 +20,24 @@ export default function PageContact() {
           yoyo: Infinity,
         }}
       >
-        avigill@hotmail.ca
+        <a href="mailto: avigill@hotmail.ca"> avigill@hotmail.ca</a>
       </motion.h3>
-      <div className="links">
-        <motion.div className="icon" whileHover={{ scale: 1.2 }}>
-          <Icon.Linkedin />
-        </motion.div>
-        <motion.div className="icon" whileHover={{ scale: 1.2 }}>
-          <Icon.Code />
-        </motion.div>
-        <motion.div className="icon" whileHover={{ scale: 1.2 }}>
-          <Icon.BookOpen />
-        </motion.div>
+      <div className="iconLinks">
+        <a href="https://www.linkedin.com/in/dootrex">
+          <motion.div className="icon" whileHover={{ scale: 1.2 }}>
+            <Icon.Linkedin />
+          </motion.div>
+        </a>
+        <a href="https://www.github.com/dootrex">
+          <motion.div className="icon" whileHover={{ scale: 1.2 }}>
+            <Icon.Code />
+          </motion.div>
+        </a>
+        <a href="https://www.medium.com/@amanindergill813">
+          <motion.div className="icon" whileHover={{ scale: 1.2 }}>
+            <Icon.BookOpen />
+          </motion.div>
+        </a>
       </div>
     </section>
   );

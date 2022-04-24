@@ -2,6 +2,7 @@ import React from "react";
 import stocky from "../images/stockyImage.png";
 import emaily from "../images/emailyImage.png";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function PageProjects() {
   return (
@@ -47,7 +48,9 @@ export default function PageProjects() {
                 scale: 1.2,
               }}
             >
-              <h3>Info</h3>
+              <Link to="/stocky">
+                <h3>Info</h3>
+              </Link>
             </motion.button>
           </div>
         </div>
@@ -61,8 +64,8 @@ export default function PageProjects() {
           </h1>
           <hr />
           <div className="languages">
-            <span>#react</span> <span>#NodeJS</span>
-            <span>#MongoDB</span> <span>#AlphaVantageAPI</span>
+            <span>#react</span> <span>#redux</span>
+            <span>#Sengrid</span> <span>#MongoDB</span>
           </div>
           <div className="codeLinks">
             <motion.button
@@ -84,7 +87,9 @@ export default function PageProjects() {
                 scale: 1.2,
               }}
             >
-              <h3>Info</h3>
+              <Link to="/emaily">
+                <h3>Info</h3>
+              </Link>
             </motion.button>
           </div>
         </div>
@@ -121,7 +126,9 @@ export default function PageProjects() {
                 scale: 1.2,
               }}
             >
-              <h3>Info</h3>
+              <Link to="/emaily">
+                <h3>Info</h3>
+              </Link>
             </motion.button>
           </div>
         </div>
